@@ -1,6 +1,8 @@
 %\documentclass[margin,line]{resume}
 \documentclass{resume}
-\usepackage{helvetica}
+%\usepackage{helvetica}
+\usepackage{microtype}
+\usepackage{charter}
 
 \begin{document}
 \name{Lee Phillip Gent, MSci}
@@ -10,43 +12,98 @@
 \begin{resume}
 
 \section{Programming} 
+\begin{tabular}{rl}
+\textbf{Languages} & C++, C, C\#, PHP, XML, Python, SQL, ECMAScript, Java, HTML \& CSS \\
+\textbf{Toolkits \& APIs} & Qt 4, C++ STL (\& TR1), Boost, Win32, POSIX, .NET, VxWorks, NSIS \\
+\textbf{Technologies} & SOAP \& Web Services, BSD Sockets \\
+\textbf{Environments \& Tools} & Visual Studio 2008 (MSVC), Eclipse, GCC, Subversion \\
+\textbf{Operating Systems} & Windows (all versions \& Server 2003), Linux, OS X, Solaris 10
+\end{tabular}
 
-\textbf{Languages} C++, C, C\#, PHP, Python, ECMAScript, Java, LaTeX \\
-\textbf{Toolkits \& APIs} Qt, C++ STL (\& TR1), Boost, Win32, POSIX, .NET \\
-\textbf{Technologies} SOAP, BSD Sockets, Threading \\
-\textbf{Environments} Visual Studio 2008, Eclipse \\
-\textbf{Operating Systems} Windows (all versions), Windows Server (versions up to 2003), Linux (all variants), Mac OS X, Solaris 10
+\section{Objective}
+Software Engineering position where knowledge and use of object-oriented programming principles, modern tools, networking experience, excellent problem-solving skills and a passion for technology can be used to help create high-quality software products.
 
 \section{Employment}
 
-\employer{Aria Networks, Ltd}
-\title{Lead Software Architect}
+\employer{\textsl{Aria Networks, Ltd}}
+\title{\bf{Lead Software Architect}}
 \dates{2009 -- current}
 \location{Chippenham, UK}
 \begin{position}
-Did stuff.  Wrote code.
+Led a team in the design and development of the second major version of the flagship, portable network planning software with a full plugin/component-based architecture.  Built with C++ \& Qt 4.\vspace{1mm}\\
+Supported teams performing sustained development of all company products at every level (requirements, architecture, design \& development).\vspace{1mm}\\
+Supported company executive and sales teams in costing and effort estimations for new projects.\vspace{1mm}\\
+Developed critical features in a large, bespoke development project using ECMAScript.
 \end{position}
 
-\employer{Aria Networks, Ltd}
-\title{Lead Software Engineer}
+\employer{\textsl{Aria Networks, Ltd}}
+\title{\bf{Lead Software Engineer}}
 \dates{2006 -- 2009}
 \location{Chippenham, UK}
 \begin{position}
-Did stuff.  Wrote code.
+Designed, developed, maintained, deployed and supported a platform-portable GMPLS network planning and routing product based on genetic algorithms with desktop GUI written using Qt 4. \vspace{1mm}\\
+Supported a small team with sustained development and forking of the product into customised bespoke products. \vspace{1mm}\\
+Led a small team in the development of a bespoke, platform-portable network management and planning tool for a large network vendor.\vspace{1mm}\\
+Worked in a team to develop a bespoke real-time VxWorks GMPLS network routing engine in the C language for inclusion in an high-grade optical switch.  Required understanding and interface with customer software API.
 \end{position}
 
-\employer{Aria Networks, Ltd}
-\title{IT \& Network Administrator}
-\dates{2006 -- current}
+\employer{\textsl{Aria Networks, Applied InSilico \& DNNI Ltd}}
+\title{\bf IT \& Network Administrator}
+\dates{2003 -- current}
 \location{Chippenham, UK}
 \begin{position}
-Networking, LANs, Internet, routing, Windows Server 2003, 2008, Linux, cabling, workstation admin, website, SVN, Trac, Wiki, Apache, Lightttpd 
+Built and maintained physical and logical business infrastructure, principally R\&D support systems (source control \& bugtracking) \vspace{1mm}\\
+Responsible for wired \& wireless Ethernet LAN, Windows Server 2003 AD PDC \& Exchange Server 2003, MS IIS \& RAS/VPN access \vspace{1mm}\\
+Responsible for GNU/Linux servers running Apache \& Lighttpd, MoinMoin wiki, Trac and Subversion servers \vspace{1mm}\\
+Responsible for physical and logical workstation maintenance, network security, company software policy \& strategy, procurement 
+\end{position}
+
+\employer{\emph{Applied InSilico, Ltd}}
+\title{\bf Lead Software Engineer}
+\dates{2005 -- 2006}
+\location{Chippenham, UK}
+\begin{position}
+Tailored flagship DNNI product for Life Sciences market  \vspace{1mm}\\
+Provided support for large customer deployment of the platform  \vspace{1mm}\\
+Added SOAP interface to platform and developed GUI client using new interface  \vspace{1mm}\\
+Designed next generation of product as fully extendible OO system
+\end{position}
+
+\employer{\emph{DNNI, Ltd}}
+\title{\bf Lead Software Engineer}
+\dates{2003 -- 2005}
+\location{Chippenham, UK}
+\begin{position}
+Designed, developed, deployed and supported a distributed, portable artificial-intelligence problem-solving platform \vspace{1mm}\\
+Platform included server-side (headless) component (C++), headless remote clients (C) and remote administration GUI (C\#) \vspace{1mm}\\
+Utilised generic and bespoke, patented neural-network algorithms coupled with genetic algorithms\vspace{1mm}\\
+Created and utilised a custom, bespoke TCP-based protocol to link components of the platform \vspace{1mm}\\
+Developed a suite of support \& aftermarket tools to accompany the platform
+\end{position}
+
+\employer{\emph{Keele University}}
+\title{\bf Computer Science Lab Demonstrator}
+\dates{2001 -- 2003}
+\location{Staffordshire, UK}
+\begin{position}
+Administered, monitored, provided assistance to and taught first year computer science students during their laboratory practical (Java programming) sessions. \vspace{1mm}\\
+Similarly for second year students; involved heavily with Java, OOP, PHP, XHTML, CSS \& JavaScript.\vspace{1mm}\\
+One-on-one mentoring as well as group teaching.
+\end{position}
+
+\employer{\emph{Words WorldWide, Ltd.}}
+\title{\bf Software Engineer}
+\dates{2001 -- 2002}
+\location{Ponteland, UK}
+\begin{position}
+Designed, developed and maintained a variety of small software solutions and projects for internal use, utilising MFC 7 as well as distributed project management.  \vspace{1mm}\\
+Maintained and sustained development of several business-critical applications, as well as designing and developing new tools to interface with third-party applications. Involved COM, Automation and NT Security.
 \end{position}
 
 \section{Education}
 
-\employer{Keele University}
-\title{\textsl{Astrophysics \& Computer Science}}
+\employer{\emph{Keele University}}
+\title{\bf Astrophysics \& Computer Science}
 \dates{1999 -- 2003}
 \location{MSci. (Hons) -- Second Class First Division}
 \begin{position}
@@ -56,29 +113,18 @@ Awarded Science Demonstrator Award for lab teaching activities  \vspace{1mm}\\
 Member of Staff-Student Liaison Committee, Halls of Residence Council  \vspace{1mm}\\
 Recognised as Microsoft Most Valuable Student for UK pilot programme
 \end{position}
+
 \section{Referees} 
 
 \begin{tabular}{@{}p{6cm}p{6cm}}
-\textbf{Professor Kuldip Paliwal}       &  \textbf{Dr Stephen So}                   \\
-Professor                               &  Associate Lecturer                       \\
-Griffith University                     &  Griffith University                      \\
-Nathan, Queensland, Australia           &  Gold Coast, Queensland, Australia        \\
+\textbf{Dr Jay Perrett}                 &  \textbf{Daniel King}                     \\
+Chief Technology Officer                &  Senior Consultant                        \\
+Aria Networks Ltd.                      &  Old Dog Consulting Ltd.                  \\
+Chippenham, UK                          &  Llangollen, UK                           \\
 phone: \textsl{available on request}    &  phone: \textsl{available on request}     \\
 e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}    \\
 \end{tabular}
 
-\begin{tabular}{@{}p{6cm}p{6cm}}
-\textbf{Dr Conrad Sanderson}            &  \textbf{Mr Sean Loye}                    \\
-Researcher                              &  Systems Engineer                         \\
-National ICT Australia                  &  Hewlett Packard                          \\
-St Lucia, Queensland, Australia         &  Milton, Queensland, Australia            \\
-phone: \textsl{available on request}    &  phone: \textsl{available on request}     \\
-e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}    \\
-\end{tabular}
-
-
-
-%______________________________________________________________________________________________________________________
 \end{resume}
 \end{document}
 
