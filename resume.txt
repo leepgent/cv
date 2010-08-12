@@ -1,0 +1,75 @@
+Lee Phillip Gent, MSci
+
+_Personal Details_
+Address: 22 Morse Close, Chippenham, SN15 3FY, UK
+E-mail: lee@leegent.net
+Telephone: +44 7748 183797
+
+
+_Programming Skills_
+Languages: C++, C, C#, PHP, XML, Python, Obj-C, SQL, ECMAScript, Java, HTML & CSS
+Toolkits & APIs: Qt 4, STL & TR1, gSOAP, Boost, Win32, POSIX, .NET, VxWorks, SQLite
+Technologies: OOP, SOAP & Web Services, BSD Sockets
+Environments & Tools: Visual Studio 200x, Eclipse, GCC, XCode, Subversion, Git
+Operating Systems: Windows (all versions & Server 2003), Linux, OS X, Solaris 10
+
+
+_Objective_
+Software Engineering position where knowledge and use of object-oriented programming principles, modern tools, networking experience, excellent problem-solving skills and a passion for technology can be used to help create high-quality software products.
+
+
+_Employment_
+Aria Networks Ltd; Lead Software Architect; 2009 -- current
+Led a team in the design and development of the second major version of the flagship, portable network planning software with a full plugin/component-based architecture.  Built with C++ & Qt 4.
+Supported teams performing sustained development of all company products at every level (requirements, architecture, design & development).
+Supported company executive and sales teams in costing and effort estimations for new projects.
+Developed critical features in a large, bespoke development project using ECMAScript.  Wrote SOAP client in C with gSOAP.
+Ported performance-critical portions of ECMAScript code to C++.
+
+Aria Networks Ltd; Lead Software Engineer; 2006 -- 2009
+Designed, developed, maintained, deployed and supported a platform-portable GMPLS network planning and routing product based on genetic algorithms with desktop GUI written using Qt 4.  Used XML for data persistence.
+Supported a small team with sustained development and forking of the product into customised bespoke products.
+Led a small team in the development of a bespoke, platform-portable network management and planning tool for a large network vendor.
+Worked in a team to develop a bespoke real-time VxWorks GMPLS network routing engine in the C language for inclusion in an high-grade optical switch.  Required understanding and interface with customer software API.
+
+Aria Networks, Applied InSilico & DNNI Ltd; IT & Network Administrator; 2003 -- current
+Built and maintained physical and logical business infrastructure.
+Responsible for wired & wireless Ethernet LAN, Windows Server 2003 AD PDC & Exchange Server 2003, MS IIS & RAS/VPN access.
+Responsible for GNU/Linux servers running Apache & Lighttpd, MoinMoin wiki, Trac and Subversion servers.
+Responsible for physical and logical workstation maintenance, network security, company software policy & strategy, procurement.
+
+Applied InSilico Ltd; Lead Software Engineer; 2005 -- 2006
+Tailored flagship artificial intelligence product for Life Sciences market.
+Provided support for large customer deployment of the platform.
+Added SOAP interface to platform and developed GUI client using new interface.
+Designed next generation of product as fully extendible object-oriented/plugin-based system.
+Developed software download bootstrap/auto-update mechanism to aid deployment and maintenance of product.
+
+DNNI Ltd; Lead Software Engineer; 2003 -- 2005
+Designed, developed, deployed and supported a distributed, high-performance, platform-portable artificial intelligence problem solving platform.
+Platform included server-side (headless) component (C++), headless remote clients (C) and remote administration GUI (C#).
+Utilised generic and bespoke, patented neural-network algorithms coupled with genetic algorithms.
+Created and utilised a custom, bespoke TCP-based protocol to link components of the platform.
+Developed a suite of support & aftermarket tools to accompany the platform.
+
+Keele University; Computer Science Lab Demonstrator; 2001 -- 2003
+Administered, monitored, provided assistance to and taught first year computer science students during their laboratory practical (Java programming) sessions.
+Similarly for second year students; involved heavily with Java, OOP, PHP, XHTML, CSS & JavaScript.
+One-on-one mentoring as well as group teaching.
+
+Words WorldWide Ltd; Software Engineer; 2001 -- 2002
+Designed, developed and maintained a variety of small software solutions and projects for internal use, utilising MFC 7 as well as distributed project management.
+Maintained and sustained development of several business-critical applications, as well as designing and developing new tools to interface with third-party applications. Involved COM, Automation and NT Security.
+
+
+_Education_
+Keele University; Astrophysics & Computer Science; 1999 -- 2003; MSci. (Hons) -- Second Class First Division
+Project work included building a distributed agent system & review of security systems.
+Founder, Treasurer & Server Administrator of Student Computer Society.
+Awarded Science Demonstrator Award for lab teaching activities.
+Member of Staff-Student Liaison Committee, Halls of Residence Council.
+Recognised as Microsoft Most Valuable Student for UK pilot programme.
+
+
+_Referees_
+Available on request.

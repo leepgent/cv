@@ -1,8 +1,12 @@
 %\documentclass[margin,line]{resume}
 \documentclass{resume}
 %\usepackage{helvetica}
-\usepackage{microtype}
-\usepackage{charter}
+%\usepackage{microtype}
+%\usepackage{charter}
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text,Numbers=Lining}
+\setromanfont[Mapping=tex-text]{Hoefler Text}
 
 \begin{document}
 \name{Lee Phillip Gent, MSci}
@@ -11,15 +15,16 @@
 
 \begin{resume}
 
-\section{Programming} 
+\section{Programming}
+{\small
 \begin{tabular}{rl}
-\textbf{Languages} & C++, C, C\#, PHP, XML, Python, SQL, ECMAScript, Java, HTML \& CSS \\
+\textbf{Languages} & C++, C, C\#, PHP, XML, Python, Obj-C, SQL, ECMAScript, Java, HTML \& CSS \\
 \textbf{Toolkits \& APIs} & Qt 4, STL \& TR1, gSOAP, Boost, Win32, POSIX, .NET, VxWorks, SQLite \\
 \textbf{Technologies} & OOP, SOAP \& Web Services, BSD Sockets \\
-\textbf{Environments \& Tools} & Visual Studio 200x, Eclipse, GCC, Subversion, XCode \\
+\textbf{Environments \& Tools} & Visual Studio 200x, Eclipse, GCC, XCode, Subversion, Git \\
 \textbf{Operating Systems} & Windows (all versions \& Server 2003), Linux, OS X, Solaris 10
 \end{tabular}
-
+}
 \section{Objective}
 Software Engineering position where knowledge and use of object-oriented programming principles, modern tools, networking experience, excellent problem-solving skills and a passion for technology can be used to help create high-quality software products.
 
@@ -33,7 +38,8 @@ Software Engineering position where knowledge and use of object-oriented program
 Led a team in the design and development of the second major version of the flagship, portable network planning software with a full plugin/component-based architecture.  Built with C++ \& Qt 4.\vspace{1mm}\\
 Supported teams performing sustained development of all company products at every level (requirements, architecture, design \& development).\vspace{1mm}\\
 Supported company executive and sales teams in costing and effort estimations for new projects.\vspace{1mm}\\
-Developed critical features in a large, bespoke development project using ECMAScript.  Wrote SOAP client in C with gSOAP.
+Developed critical features in a large, bespoke development project using ECMAScript.  Wrote SOAP client in C with gSOAP.\vspace{1mm}\\
+Ported performance-critical portions of ECMAScript code to C++.
 \end{position}
 
 \employer{\textsl{Aria Networks, Ltd}}
@@ -63,10 +69,11 @@ Responsible for physical and logical workstation maintenance, network security, 
 \dates{2005 -- 2006}
 \location{Chippenham, UK}
 \begin{position}
-Tailored flagship DNNI product for Life Sciences market.\vspace{1mm}\\
+Tailored flagship artificial intelligence product for Life Sciences market.\vspace{1mm}\\
 Provided support for large customer deployment of the platform.\vspace{1mm}\\
 Added SOAP interface to platform and developed GUI client using new interface.\vspace{1mm}\\
-Designed next generation of product as fully extendible OO system.
+Designed next generation of product as fully extendible object-oriented/plugin-based system.\vspace{1mm}\\
+Developed software download bootstrap/auto-update mechanism to aid deployment and maintenance of product.
 \end{position}
 
 \employer{\emph{DNNI, Ltd}}
@@ -74,7 +81,7 @@ Designed next generation of product as fully extendible OO system.
 \dates{2003 -- 2005}
 \location{Chippenham, UK}
 \begin{position}
-Designed, developed, deployed and supported a distributed, portable artificial-intelligence problem-solving platform.\vspace{1mm}\\
+Designed, developed, deployed and supported a distributed, high-performance, platform-portable artificial intelligence problem solving platform.\vspace{1mm}\\
 Platform included server-side (headless) component (C++), headless remote clients (C) and remote administration GUI (C\#).\vspace{1mm}\\
 Utilised generic and bespoke, patented neural-network algorithms coupled with genetic algorithms.\vspace{1mm}\\
 Created and utilised a custom, bespoke TCP-based protocol to link components of the platform.\vspace{1mm}\\
